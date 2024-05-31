@@ -20,7 +20,6 @@ html, body {
   font-family: Georgia;
   height: 1500px;
   overflow: hidden;
-  text-align: center;
 }
 
 .profile{
@@ -34,10 +33,21 @@ html, body {
   height: 450px;
   width: 22%;
   overflow: hidden;
+  text-align: center;
 }
 
 .about{
-  
+  float: right;
+  color: white;
+  background-color: #274472;
+  margin: 15px;
+  padding: 10px;
+  border: 3px #233c76 solid;
+  font-family: Georgia;
+  height: 450px;
+  width: 70%;
+  overflow: hidden;
+  text-align: center;
 }
 
 /* ID's */
