@@ -1,0 +1,72 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #31548c;
+}
+
+/* Div's */
+
+.banner{
+  background-color: #274472;
+  font-family: Georgia;
+  height: 75px;
+  overflow: hidden;
+}
+
+.container{
+  background-color: #31548c;
+  font-family: Georgia;
+  height: 1500px;
+  overflow: hidden;
+  text-align: center;
+}
+
+
+/* ID's */
+
+
+/* Classes's */
+.headingText{
+  margin: 15px;
+  float: left;
+  color: aliceblue;
+}
+
+.headingImg{
+  margin: 10px;
+  float: left;
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+  background-color: #20365b;
+}
+
+.navBtn{
+  float: right;
+  width: 65px;
+  text-align: center;
+}
+
+.containerText{
+  text-align: center;
+  color: aliceblue;
+}
+/* Tags */
+
+a{
+  color: whitesmoke;
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+  padding: 8px;
+  background-color: #538ec6;
+  border: 3px #233c76 solid;
+  margin: 5px;
+  margin-top: 15px;
+}
+
+a:hover{
+  background-color: #538ec6;
+}

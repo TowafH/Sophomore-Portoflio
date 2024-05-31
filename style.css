@@ -15,10 +15,6 @@ html, body {
   overflow: hidden;
 }
 
-.nav{
-  
-}
-
 .container{
   background-color: #31548c;
   font-family: Georgia;
@@ -27,6 +23,22 @@ html, body {
   text-align: center;
 }
 
+.profile{
+  float: left;
+  color: white;
+  background-color: #274472;
+  margin: 15px;
+  padding: 10px;
+  border: 3px #233c76 solid;
+  font-family: Georgia;
+  height: 450px;
+  width: 22%;
+  overflow: hidden;
+}
+
+.about{
+  
+}
 
 /* ID's */
 
@@ -53,12 +65,9 @@ html, body {
   text-align: center;
 }
 
-.backgroundImg{
-  justify-content: center;
-  display: flex;
-  margin: 0 auto;
-  height: 300px;
-  width: 300px;
+.containerText{
+  text-align: center;
+  color: aliceblue;
 }
 /* Tags */
 
@@ -75,5 +84,5 @@ a{
 }
 
 a:hover{
-  background-color: #538ec6;
+  background-color: #8cbce8;
 }
