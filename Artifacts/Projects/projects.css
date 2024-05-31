@@ -93,7 +93,7 @@ html, body {
 #prj2{
   float: left;
   color: #000080;
-  background-color: #d2ccb1;
+  background-color: #f0e6bc;
   margin: 10px;
   padding: 10px;
   border: 4px #233c76 solid;
@@ -106,6 +106,26 @@ html, body {
 
 #I-prj2{
   width: 477px;
+  height: 510px;
+  overflow-x: hidden;
+}
+
+#prj3{
+  float: left;
+  color: #000000;
+  background-color: #f2f2f2;
+  margin: 10px;
+  padding: 10px;
+  border: 4px #233c76 solid;
+  font-family: Georgia;
+  height: 570px;
+  width: 40%;
+  overflow: hidden;
+  text-align: center;
+}
+
+#I-prj3{
+  width: 777px;
   height: 510px;
   overflow-x: hidden;
 }
