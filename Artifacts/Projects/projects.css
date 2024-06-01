@@ -51,6 +51,12 @@ html, body {
   text-align: center;
 }
 
+.centerPrj{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
 
 /* Tags w/ Classes/ID */
 
@@ -85,7 +91,7 @@ html, body {
 #prj1{
   float: left;
   background-color: #9c7777;
-  margin: 10px;
+  margin: 3px;
   padding: 3px;
   border: 2px #233c76 solid;
   height: 570px;
@@ -104,7 +110,7 @@ html, body {
   float: left;
   color: #000080;
   background-color: #f0e6bc;
-  margin: 10px;
+  margin: 3px;
   padding: 3px;
   border: 2px #233c76 solid;
   font-family: Georgia;
@@ -124,7 +130,7 @@ html, body {
   float: left;
   color: #000000;
   background-color: #f2f2f2;
-  margin: 10px;
+  margin: 3px;
   padding: 3px;
   border: 2px #233c76 solid;
   font-family: Georgia;
@@ -135,27 +141,6 @@ html, body {
 }
 
 #I-prj3{
-  width: 777px;
+  width: 477px;
   height: 510px;
-  overflow-x: hidden;
-}
-
-#prj4{
-  float: left;
-  color: #000000;
-  background-color: #f2f2f2;
-  margin: 10px;
-  padding: 10px;
-  border: 4px #233c76 solid;
-  font-family: Georgia;
-  height: 570px;
-  width: 40%;
-  overflow: hidden;
-  text-align: center;
-}
-
-#I-prj4{
-  width: 777px;
-  height: 510px;
-  overflow-x: hidden;
 }
