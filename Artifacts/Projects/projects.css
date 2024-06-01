@@ -51,7 +51,8 @@ html, body {
   text-align: center;
 }
 
-/* Tags */
+
+/* Tags w/ Classes/ID */
 
 .banner a{
   color: whitesmoke;
@@ -67,22 +68,26 @@ html, body {
 
 .banner a:hover{
   background-color: #8cbce8;
+  border: 10px;
+  font-size: 18px;
 }
 
-.container a{
-  text-decoration: none;
+#prj1 a{
+  color: saddlebrown;
+  font-family: Georgia;
+}
+#prj1 a:hover{
+  color: #cc793e;
 }
 
 /* Projects */
 
 #prj1{
   float: left;
-  color: saddlebrown;
   background-color: #9c7777;
   margin: 10px;
   padding: 3px;
   border: 2px #233c76 solid;
-  font-family: Georgia;
   height: 570px;
   width: 480px;
   overflow: hidden;
