@@ -12,6 +12,7 @@ html, body {
   background-color: #274472;
   font-family: Georgia;
   height: 75px;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -68,6 +69,10 @@ html, body {
   background-color: #8cbce8;
 }
 
+.container a{
+  text-decoration: none;
+}
+
 /* Projects */
 
 #prj1{
@@ -75,11 +80,11 @@ html, body {
   color: saddlebrown;
   background-color: #9c7777;
   margin: 10px;
-  padding: 10px;
-  border: 4px #233c76 solid;
+  padding: 3px;
+  border: 2px #233c76 solid;
   font-family: Georgia;
   height: 570px;
-  width: 25%;
+  width: 480px;
   overflow: hidden;
   text-align: center;
 }
@@ -95,11 +100,11 @@ html, body {
   color: #000080;
   background-color: #f0e6bc;
   margin: 10px;
-  padding: 10px;
-  border: 4px #233c76 solid;
+  padding: 3px;
+  border: 2px #233c76 solid;
   font-family: Georgia;
   height: 570px;
-  width: 25%;
+  width: 480px;
   overflow: hidden;
   text-align: center;
 }
@@ -115,11 +120,11 @@ html, body {
   color: #000000;
   background-color: #f2f2f2;
   margin: 10px;
-  padding: 10px;
-  border: 4px #233c76 solid;
+  padding: 3px;
+  border: 2px #233c76 solid;
   font-family: Georgia;
   height: 570px;
-  width: 40%;
+  width: 480px;
   overflow: hidden;
   text-align: center;
 }
