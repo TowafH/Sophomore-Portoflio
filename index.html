@@ -9,13 +9,36 @@
   <script src="script.js" defer></script>
 
   <style>
+    /* Add animation to "page content" */
+    .animate-bottom {
+      position: relative;
+      -webkit-animation-name: animatebottom;
+      -webkit-animation-duration: 1s;
+      animation-name: animatebottom;
+      animation-duration: 1s
+    }
 
+    @-webkit-keyframes animatebottom {
+      from { bottom:-100px; opacity:0 } 
+      to { bottom:0px; opacity:1 }
+    }
+
+    @keyframes animatebottom { 
+      from{ bottom:-100px; opacity:0 } 
+      to{ bottom:0; opacity:1 }
+    }
+
+    #myDiv {
+      display: none;
+      text-align: center;
+    }
   </style>
 
+  
 </head>
 
-<body>
-  
+<body onload="myFunction()" style="margin:0; display:none;" id="myDiv" class="animate-bottom">
+  <div id="loader"></div>
   <div class="banner">
     <img src="Images/Avatar.png" alt="avatar" class="headingImg">
         <h1 class="headingText">Sophomore Portfolio</h1>
