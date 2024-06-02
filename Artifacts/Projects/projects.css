@@ -19,7 +19,7 @@ html, body {
 .container{
   background-color: #31548c;
   font-family: Georgia;
-  height: 1500px;
+  height: 2500px;
   overflow: hidden;
   text-align: center;
   color: aliceblue;
@@ -60,7 +60,7 @@ html, body {
 
 /* Tags w/ Classes/ID */
 
-.banner a{
+.nav a{
   color: whitesmoke;
   font-size: 18px;
   text-decoration: none;
@@ -72,7 +72,7 @@ html, body {
   margin-top: 15px;
 }
 
-.banner a:hover{
+.nav a:hover{
   background-color: #8cbce8;
   border: 10px;
   font-size: 18px;
@@ -94,7 +94,7 @@ html, body {
   margin: 3px;
   padding: 3px;
   border: 2px #233c76 solid;
-  height: 570px;
+  height: 600px;
   width: 480px;
   overflow: hidden;
   text-align: center;
@@ -106,6 +106,14 @@ html, body {
   overflow-x: hidden;
 }
 
+#prj2 a{
+  color: #000080;
+  font-family: Georgia;
+}
+#prj2 a:hover{
+  color: #3232a4;
+}
+
 #prj2{
   float: left;
   color: #000080;
@@ -114,7 +122,7 @@ html, body {
   padding: 3px;
   border: 2px #233c76 solid;
   font-family: Georgia;
-  height: 570px;
+  height: 600px;
   width: 480px;
   overflow: hidden;
   text-align: center;
@@ -126,6 +134,14 @@ html, body {
   overflow-x: hidden;
 }
 
+#prj3 a{
+  color: #000000;
+  font-family: Georgia;
+}
+#prj3 a:hover{
+  color: #2f2d2d;
+}
+
 #prj3{
   float: left;
   color: #000000;
@@ -134,7 +150,7 @@ html, body {
   padding: 3px;
   border: 2px #233c76 solid;
   font-family: Georgia;
-  height: 570px;
+  height: 600px;
   width: 480px;
   overflow: hidden;
   text-align: center;
@@ -143,4 +159,57 @@ html, body {
 #I-prj3{
   width: 477px;
   height: 510px;
+}
+
+
+#prj4 a{
+  color: aliceblue;
+  font-family: Georgia;
+}
+#prj4 a:hover{
+  color: snow;
+}
+
+#prj4{
+  color: #000000;
+  background-color: #1F1F30;
+  margin: 3px;
+  padding: 3px;
+  border: 2px #233c76 solid;
+  font-family: Georgia;
+  height: 600px;
+  width: 480px;
+  overflow: hidden;
+  text-align: center;
+}
+
+#I-prj4{
+  width: 450px;
+  height: 540px;
+}
+
+#prj5 a{
+  color: #1298C9;
+  font-family: Georgia;
+}
+#prj5 a:hover{
+  color: #6cbdda;
+}
+
+#prj5{
+  color: #000000;
+  background-color: #83DCDA;
+  margin: 3px;
+  padding: 3px;
+  border: 2px #233c76 solid;
+  font-family: Georgia;
+  height: 600px;
+  width: 480px;
+  overflow: hidden;
+  text-align: center;
+}
+
+#I-prj5{
+  width: 477px;
+  height: 540px;
 }
