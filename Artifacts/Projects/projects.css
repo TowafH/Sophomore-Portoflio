@@ -81,6 +81,9 @@ html, body {
   font-size: 18px;
 }
 
+
+
+/* Projects */
 #prj1 a{
   color: saddlebrown;
   font-family: Georgia;
@@ -88,8 +91,6 @@ html, body {
 #prj1 a:hover{
   color: #cc793e;
 }
-
-/* Projects */
 
 #prj1{
   float: left;
