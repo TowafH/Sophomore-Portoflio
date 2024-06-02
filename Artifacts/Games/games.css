@@ -18,9 +18,11 @@ html, body {
 .container{
   background-color: #31548c;
   font-family: Georgia;
-  height: 1500px;
+  height: 2500px;
   overflow: hidden;
   text-align: center;
+  color: aliceblue;
+  display: inline;
 }
 
 
@@ -71,4 +73,95 @@ html, body {
   background-color: #8cbce8;
   border: 10px;
   font-size: 18px;
+}
+
+/* Center CSS */
+.centerPrj{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Games */
+
+
+#game1 a{
+  color: #1298C9;
+  font-family: Georgia;
+}
+#game1 a:hover{
+  color: #6cbdda;
+}
+
+#game1{
+  color: #000000;
+  background-color: #83DCDA;
+  margin: 3px;
+  padding: 3px;
+  border: 2px #233c76 solid;
+  font-family: Georgia;
+  height: 620px;
+  width: 600px;
+  overflow: hidden;
+  text-align: center;
+}
+
+#I-game1{
+  width: 600px;
+  height: 560px;
+}
+
+#game2 a{
+  color: #538EC6;
+  font-family: Georgia;
+}
+#game2 a:hover{
+  color: #68a8e3;
+}
+
+#game2{
+  color: #000000;
+  background-color: #B1D4E0;
+  margin: 3px;
+  padding: 3px;
+  border: 2px #233c76 solid;
+  font-family: Georgia;
+  height: 620px;
+  width: 400px;
+  overflow: hidden;
+  text-align: center;
+}
+
+#I-game2{
+  width: 800px;
+  height: 560px;
+}
+
+#game3 a{
+  color: #835D38;
+  font-family: Georgia;
+}
+#game3 a:hover{
+  color: #714d28;
+}
+
+#game3{
+  color: #000000;
+  background-color: #E19C61;
+  margin: 3px;
+  padding: 3px;
+  border: 2px #233c76 solid;
+  font-family: Georgia;
+  height: 620px;
+  width: 400px;
+  overflow: hidden;
+  text-align: center;
+}
+
+#I-game3{
+  width: 800px;
+  height: 560px;
 }
