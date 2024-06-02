@@ -79,7 +79,7 @@ html, body {
 
 /* Tags */
 
-a{
+.nav a{
   color: whitesmoke;
   font-size: 18px;
   text-decoration: none;
@@ -91,7 +91,7 @@ a{
   margin-top: 15px;
 }
 
-.banner a:hover{
+.nav a:hover{
   background-color: #8cbce8;
   border: 10px;
   font-size: 18px;
