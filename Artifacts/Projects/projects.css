@@ -55,6 +55,9 @@ html, body {
   display: flex;
   margin: 0 auto;
   justify-content: center;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 
@@ -185,7 +188,7 @@ html, body {
 
 #I-prj4{
   width: 450px;
-  height: 540px;
+  height: 530px;
 }
 
 #prj5 a{
@@ -212,4 +215,82 @@ html, body {
 #I-prj5{
   width: 477px;
   height: 540px;
+}
+
+#prj6 a{
+  color: #80A7B9;
+  font-family: Georgia;
+}
+#prj6 a:hover{
+  color: #a7c5d3;
+}
+
+#prj6{
+  color: #000000;
+  background-color: #2B7394;
+  margin: 3px;
+  padding: 3px;
+  border: 2px #233c76 solid;
+  font-family: Georgia;
+  height: 600px;
+  width: 480px;
+  overflow: hidden;
+  text-align: center;
+}
+
+#I-prj6{
+  width: 400px;
+  height: 530px;
+}
+
+#prj7 a{
+  color: #465b91;
+  font-family: Georgia;
+}
+#prj7 a:hover{
+  color: #5d7fd5;
+}
+
+#prj7{
+  color: #000000;
+  background-color: #23335A;
+  margin: 3px;
+  padding: 3px;
+  border: 2px #233c76 solid;
+  font-family: Georgia;
+  height: 700px;
+  width: 35%;
+  overflow: hidden;
+  text-align: center;
+}
+
+#I-prj7{
+  width: 100%;
+  height: 600px;
+}
+
+#prj8 a{
+  color: #538EC6;
+  font-family: Georgia;
+}
+#prj8 a:hover{
+  color: #68a8e3;
+}
+
+#prj8{
+  color: #000000;
+  background-color: #41729F;
+  margin: 3px;
+  padding: 3px;
+  border: 2px #233c76 solid;
+  font-family: Georgia;
+  height: 700px;
+  width: 65%;
+  overflow: hidden;
+  text-align: center;
+}
+
+#I-prj8{
+  width: 100%;
+  height: 600px;
 }
