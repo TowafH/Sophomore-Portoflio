@@ -43,6 +43,10 @@ html, body {
   background-color: #20365b;
 }
 
+.headingImg:hover{
+  background-color: #456396;
+}
+
 .navBtn{
   float: right;
   width: 65px;
