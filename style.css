@@ -21,7 +21,7 @@ html, body {
   background-color: #274472;
   border: 3px #233c76 solid;
   font-family: Georgia;
-  height: 645px;
+  height: 700px;
   width: 99%;
   overflow: hidden;
   margin: 0 auto;
@@ -34,7 +34,7 @@ html, body {
   color: white;
   background-color: #426bae;
   border: 3px #233c76 solid;
-  height: 640px;
+  height: 695px;
   width: 99%;
 }
 
@@ -43,7 +43,7 @@ html, body {
   color: white;
   background-color: #426bae;
   border: 3px #233c76 solid;
-  height: 640px;
+  height: 695px;
   width: 50%;
 }
 
