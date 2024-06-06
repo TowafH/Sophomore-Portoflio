@@ -1,5 +1,5 @@
 html, body {
-  height: 100%;
+  height: 900px;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -21,7 +21,7 @@ html, body {
   background-color: #274472;
   border: 3px #233c76 solid;
   font-family: Georgia;
-  height: 605px;
+  height: 645px;
   width: 98%;
   overflow: hidden;
   margin: 0 auto;
@@ -34,7 +34,7 @@ html, body {
   color: white;
   background-color: #426bae;
   border: 3px #233c76 solid;
-  height: 600px;
+  height: 640px;
   width: 1000px;
 }
 
@@ -43,8 +43,14 @@ html, body {
   color: white;
   background-color: #426bae;
   border: 3px #233c76 solid;
-  height: 600px;
+  height: 640px;
   width: 500px;
+}
+
+.exp{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 /* ID's */
 
@@ -54,6 +60,33 @@ html, body {
   justify-content: center;
   width: 200px;
   height: 200px;
+}
+
+#foodbank{
+  border: 2px solid #FF7314;
+  background-color: #ffffff;
+}
+
+#foodbank:hover{
+  background-color: #f5c4a3;
+}
+
+#BE{
+  border: 2px solid #8D796E;
+  background-color: snow;
+}
+
+#BE:hover{
+  background-color: #d5c6be;
+}
+
+#TAEHS{
+  border: 2px solid #D5AE42;
+  background-color: white;
+}
+
+#TAEHS:hover{
+  background-color: #d0b56d;
 }
 
 /* Classes's */
@@ -102,6 +135,17 @@ html, body {
   font-size: 18px;
 }
 
-.profile hr{
+.container hr{
 border: 3px solid #233c76;
+}
+
+.about p{
+  font-size: 20px;
+  text-align: left;
+  margin: 10px;
+}
+
+.exp img{
+  float: left;
+  margin: 5px;
 }
