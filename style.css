@@ -15,45 +15,46 @@ html, body {
   overflow: hidden;
 }
 
-.container{
-  background-color: #31548c;
-  color: aliceblue;
-  text-align: center;
-  font-family: Georgia;
-  height: 1500px;
-  overflow: hidden;
-}
 
-.profile{
-  float: left;
+.container{
   color: white;
   background-color: #274472;
-  margin: 15px;
-  padding: 10px;
   border: 3px #233c76 solid;
   font-family: Georgia;
-  height: 650px;
-  width: 22%;
+  height: 605px;
+  width: 98%;
   overflow: hidden;
-  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
 .about{
   float: right;
   color: white;
-  background-color: #274472;
-  margin: 15px;
-  padding: 10px;
+  background-color: #426bae;
   border: 3px #233c76 solid;
-  font-family: Georgia;
-  height: 650px;
-  width: 60%;
-  overflow: hidden;
-  text-align: center;
+  height: 600px;
+  width: 1000px;
 }
 
+.profile{
+  float: left;
+  color: white;
+  background-color: #426bae;
+  border: 3px #233c76 solid;
+  height: 600px;
+  width: 500px;
+}
 /* ID's */
 
+#avatar{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+}
 
 /* Classes's */
 .headingText{
@@ -99,4 +100,8 @@ html, body {
   background-color: #8cbce8;
   border: 10px;
   font-size: 18px;
+}
+
+.profile hr{
+border: 3px solid #233c76;
 }
