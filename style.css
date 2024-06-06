@@ -71,6 +71,7 @@ html, body {
   background-color: #f5c4a3;
 }
 
+
 #BE{
   border: 2px solid #8D796E;
   background-color: snow;
@@ -80,6 +81,7 @@ html, body {
   background-color: #d5c6be;
 }
 
+
 #TAEHS{
   border: 2px solid #D5AE42;
   background-color: white;
@@ -88,6 +90,7 @@ html, body {
 #TAEHS:hover{
   background-color: #f3dc9b;
 }
+
 
 /* Classes's */
 .headingText{
