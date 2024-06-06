@@ -53,7 +53,7 @@ document.getElementById("BE").addEventListener("click", function() {
   changeBEColor(); 
   const pTag = document.getElementById("P"); 
   if (pTag) {
-    pTag.innerText = "During my Internship at Braathe Enterprises, I was tasked to work on several projects. These projects can be research-based or projects about topics I am passionate about. So far, I’ve conducted research on HR in 5 countries. I researched and created a slideshow to present my findings. Currently, I am working on learning JavaScript following the free course on Scrimba, “Learn JavaScript.” This project will culminate into a paper and portfolio where I will display the apps that I have built and what I have learned throughout the course."
+    pTag.innerText = "During my Internship at Braathe Enterprises, I was tasked to work on several projects. These projects can be research-based or projects about topics I am passionate about. So far, I’ve conducted research on HR in 5 countries. I researched and created a slideshow to present my findings. Currently, I am working on learning JavaScript following the free course on Scrimba, “Learn JavaScript.” This project culminated into a paper and portfolio, where I displayed the apps that I have built and what I have learned throughout the course."
   } else {
     console.error("Could not find a <p> tag within the #foodbank element.");
   }
