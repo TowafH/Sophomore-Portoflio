@@ -76,3 +76,78 @@ html, body {
   border: 10px;
   font-size: 18px;
 }
+
+
+/* Nav Bar */
+.navBar{
+  background-color: #274472;
+  margin: 15px;
+  padding: 10px;
+  border: 3px solid #233c76;
+  font-family: Georgia;
+  height: 40px;
+  overflow: hidden;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  row-gap: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+li{
+  float: left;
+}
+
+li a, .dropBtn {
+  display: inline-block;
+  text-align: center;
+  padding: 12px 14px;
+}
+
+li a:hover, .dropDown:hover .dropBtn{
+  background-color: #a9cbea;
+}
+
+li.dropdown{
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.dropDown-content{
+  display: none;
+  position: absolute; 
+  background: #233c76;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgb(1, 0, 1, 0.3);
+  z-index: 1;
+}
+
+.dropDown-content a{
+  color: whitesmoke;
+  display: block;
+  text-align: left;
+}
+
+.dropDown-content a:hover{
+  background-color: #345093;
+  color: whitesmoke
+}
+
+.dropDown:hover .dropDown-content{
+  display: block;
+}
+
+.navBar a{
+  color: whitesmoke;
+  font-size: 20px;
+  text-decoration: none;
+  display: block;
+  padding: 8px;
+  background-color: #538ec6;
+  border: 3px #233c76 solid;
+  margin: 2px;
+}
